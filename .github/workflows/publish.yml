@@ -1,4 +1,4 @@
-name: Publish Site
+name: github pages
 
 on:
   push:
@@ -6,19 +6,27 @@ on:
       - master
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-latest
-
+  deploy:
+    runs-on: ubuntu-18.04
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@master
+      - uses: actions/checkout@v2
         with:
-          submodules: true
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           token: ${{ secrets.RECLUSE_CI_ROBOT_TOKEN }}
-      - name: Publish Site
-        uses: chabad360/hugo-gh-pages@master
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
         with:
-          githubToken: ${{ secrets.RECLUSE_CI_ROBOT_TOKEN }}
-          cname: www.recluse-games.com
-          branch: gh-pages
-          repo: recluse-games/www.recluse-games.com
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.RECLUSE_CI_ROBOT_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages  # deploying branch
