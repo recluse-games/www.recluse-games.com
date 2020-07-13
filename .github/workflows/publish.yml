@@ -14,6 +14,7 @@ jobs:
         uses: actions/checkout@master
         with:
           submodules: true
+          token: ${{ secrets.RECLUSE_CI_ROBOT_TOKEN }}
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
