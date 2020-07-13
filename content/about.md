@@ -21,14 +21,9 @@ We Value:
 
 ## The Team
 
-Our team is currently made up of individuals that have worked in the technology industry for a decade and have
-been involved in teams and companies of various sizes.
+Our team is currently made up of individuals that have worked in the technology industry for a decade and have been involved in teams and companies of various sizes.
 
-#### Ian Armour
-
-Developer
-
-
+#### Ian Armour 
+* Developer
 #### Matt Foxley
-
-Designer
+* Designer
