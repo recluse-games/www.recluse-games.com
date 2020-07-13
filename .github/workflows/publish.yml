@@ -19,3 +19,5 @@ jobs:
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.RECLUSE_CI_ROBOT_TOKEN }}
+          cname: www.recluse-games.com
+          branch: gh-pages
