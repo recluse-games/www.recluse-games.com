@@ -28,5 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.RECLUSE_CI_ROBOT_TOKEN }}
-          publish_dir: ./
           publish_branch: gh-pages  # deploying branch
+          cname: www.recluse-games.com
