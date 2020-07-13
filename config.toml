@@ -1,6 +1,6 @@
 baseurl = "https://www.recluse-games.com/"
 title = "Recluse Games"
-theme = "hugo-coder"
+theme = "recluse-web"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
