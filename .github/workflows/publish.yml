@@ -16,8 +16,6 @@ jobs:
           submodules: true
           token: ${{ secrets.RECLUSE_CI_ROBOT_TOKEN }}
       - name: Publish Site
-        env:
-          - GITHUB_ACTOR: recluse-ci-robot
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.RECLUSE_CI_ROBOT_TOKEN }}
