@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recluse Games</title>
+    <link>https://www.recluse-games.com/</link>
+    <description>Recent content on Recluse Games</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.recluse-games.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Things I Wish I Knew</title>
+      <link>https://www.recluse-games.com/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.recluse-games.com/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>About Recluse Games</title>
+      <link>https://www.recluse-games.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.recluse-games.com/about/</guid>
+      <description>Introduction Recluse Games is a studio that was founded by a small group of friends in Seattle Washington in January of 2020.
+Our primary goal in founding this studio was to combine everyones ideas to produce games that we view as ethical, fully featured and are enjoyable to our entire group. As the entire gaming industry has involved over the past two decades we&amp;rsquo;ve become more and more unsettled by the growth of companies in the industry that produce unspired games soley for profit and the lack of focus on creating a fun and innovative product.</description>
+    </item>
+    
+  </channel>
+</rss>
