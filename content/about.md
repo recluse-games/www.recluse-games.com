@@ -26,6 +26,9 @@ been involved in teams and companies of various sizes.
 
 #### Ian Armour
 
+Developer
 
 
 #### Matt Foxley
+
+Designer
