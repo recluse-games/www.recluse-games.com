@@ -22,3 +22,5 @@ jobs:
           cname: www.recluse-games.com
           branch: gh-pages
           repo: recluse-games/www.recluse-games.com
+        env:
+          - GITHUB_ACTOR: "recluse-ci-robot"
